@@ -9,3 +9,9 @@ npm i prisma --save-dev
 
 npx prisma init --datasource-provider postgresql
   Cria o modelo prisma usando postgresql
+
+npm i -D prettier prettier-plugin-tailwindcss
+  criar o arquivo prettier.config.js e botar o conteudo:
+    module.exports = {
+      plugins: ["prettier-plugin-tailwindcss"]
+    }
