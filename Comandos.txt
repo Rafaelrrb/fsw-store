@@ -1,0 +1,11 @@
+npx create-next-app@latest 
+  Cria o projeto com next 
+
+npm run dev 
+  Roda o projeto
+
+npm i prisma --save-dev
+  Vamos usar o primas para modelar o banco de dados 
+
+npx prisma init --datasource-provider postgresql
+  Cria o modelo prisma usando postgresql
