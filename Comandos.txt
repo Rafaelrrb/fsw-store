@@ -31,3 +31,4 @@ npm i -D prettier prettier-plugin-tailwindcss
 Components shadcn
   npx shadcn-ui@latest add card
   npx shadcn-ui@latest add button
+  npx shadcn-ui@latest add sheet
