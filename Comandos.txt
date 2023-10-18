@@ -5,10 +5,14 @@ npm run dev
   Roda o projeto
 
 npm i prisma --save-dev
-  Vamos usar o primas para modelar o banco de dados 
+  Vamos usar o primas para modelar o banco de dados
 
 npx prisma init --datasource-provider postgresql
   Cria o modelo prisma usando postgresql
+
+Crias as migrate
+  npx prisma migrate dev --name init
+  npx prisma migrate dev --name add_auth_tables 
 
 npm i -D prettier prettier-plugin-tailwindcss
   criar o arquivo prettier.config.js e botar o conteudo:
@@ -28,7 +32,13 @@ npm i -D prettier prettier-plugin-tailwindcss
     ✔ Are you using React Server Components? … no / yes
     ? Write configuration to components.json. Proceed? › y
 
-Components shadcn
+Components shadcn (https://ui.shadcn.com/docs/components/accordion)
   npx shadcn-ui@latest add card
   npx shadcn-ui@latest add button
   npx shadcn-ui@latest add sheet
+
+
+npm install @prisma/client @next-auth/prisma-adapter@canary (https://next-auth.js.org/v3/adapters/prisma)
+  Criar rota de arquivos api/auth/[...nextauth]/route.ts
+
+Altenticar Google(https://console.cloud.google.com/home/dashboard?hl=pt-br&project=coral-airfoil-367616&organizationId=0)
