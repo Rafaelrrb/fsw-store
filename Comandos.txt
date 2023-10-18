@@ -44,3 +44,6 @@ npm install @prisma/client @next-auth/prisma-adapter@canary (https://next-auth.j
   Criar rota de arquivos api/auth/[...nextauth]/route.ts
 
 Altenticar Google(https://console.cloud.google.com/home/dashboard?hl=pt-br&project=coral-airfoil-367616&organizationId=0)
+
+npx prisma db seed
+  Roda o arquivo que gera os dados no banco de dados 
