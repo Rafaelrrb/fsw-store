@@ -36,6 +36,8 @@ Components shadcn (https://ui.shadcn.com/docs/components/accordion)
   npx shadcn-ui@latest add card
   npx shadcn-ui@latest add button
   npx shadcn-ui@latest add sheet
+  npx shadcn-ui@latest add avatar
+  npx shadcn-ui@latest add separator
 
 
 npm install @prisma/client @next-auth/prisma-adapter@canary (https://next-auth.js.org/v3/adapters/prisma)
