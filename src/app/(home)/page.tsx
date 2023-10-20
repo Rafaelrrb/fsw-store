@@ -1,6 +1,6 @@
 import Categories from "./components/categories"
 import { prismaClient } from "@/lib/prisma"
-import ProductList from "./components/productList"
+import ProductList from "../../components/ui/productList"
 import SectionTitle from "./components/sectionTitle"
 import PromoBanner from "./components/promoBanner"
 
