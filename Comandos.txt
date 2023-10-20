@@ -49,3 +49,10 @@ Altenticar Google(https://console.cloud.google.com/home/dashboard?hl=pt-br&proje
 
 npx prisma db seed
   Roda o arquivo que gera os dados no banco de dados 
+
+npm i stripe
+  Pagamentos 
+  (https://dashboard.stripe.com/test/developers)
+
+npm i @stripe/stripe-js
+  (https://www.npmjs.com/package/@stripe/stripe-js)
