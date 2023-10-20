@@ -39,6 +39,7 @@ Components shadcn (https://ui.shadcn.com/docs/components/accordion)
   npx shadcn-ui@latest add avatar
   npx shadcn-ui@latest add separator
   npx shadcn-ui@latest add badge
+  npx shadcn-ui@latest add scroll-area
 
 
 npm install @prisma/client @next-auth/prisma-adapter@canary (https://next-auth.js.org/v3/adapters/prisma)
