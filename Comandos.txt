@@ -56,3 +56,6 @@ npm i stripe
 
 npm i @stripe/stripe-js
   (https://www.npmjs.com/package/@stripe/stripe-js)
+
+stripe listen --forward-to localhost:3000/api/order/paymentSuccess
+  Comando que roda o stripe local
